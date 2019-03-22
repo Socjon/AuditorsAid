@@ -6,8 +6,8 @@ E) Health General and Rehabilitative   150-179, 531, 541-543
 F) Mental Health Crisis Intervention      
 G) Disease Disorders Medical Disciplines      
 H) Medical Research                           
-I) Crime Legal Related 460-465, 406, 526, 527                        
-J) Employment Job Related     120-149 / 200-229               
+I) Crime Legal Related 460-465, 406, 526, 527, 539                        
+J) Employment Job Related     120-149 / 200-229,920               
 K) Food Agriculture  and Nutrition     230-249, 916 
 L) Housing Shelter      380-399, 401                 
 M) Public Safety Disaster Preparedness and Relief 902      
