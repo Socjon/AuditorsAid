@@ -1,35 +1,31 @@
-Synopsis
+## Synopsis
+Non-Profit organizations are required to self-identify their area of focus based on the type of work 
+the organization does. I created machine learning models to classify these subgroups based on their annual 990 
+filings.
 
-Anonomly 
+The intent of the project was to identify inconsistencies within these subgroups.
+This in turn would give the IRS auditors specific organizations to investigate and reduce fraud.
 
-Code Example
+## Motivation
 
-Ran multiple tree based models ultimately selecting the ensamble method XGB   
-`RandomForestClassifier(...)`  
-`xgb.train(param_down, dtrain_down, num_round, watchlist, evals_result=evals_result)`
+In efforts to make the government more efficient and better equipping our civil employees
+with the effective tools, I strove to see what kind of analysis could be performed with public data.
 
+We need a Government that embraces new technologies, but that is also transparent enough that any
+citizen could do analysis and reaches the same conclusion. Data is not objective. 
 
-Motivation
+## Data Source
+[Open Data for Nonprofit Research](https://github.com/lecy/Open-Data-for-Nonprofit-Research):
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain why the project exists.
+"The IRS maintains several important nonprofit databases to track the current population 
+of exempt organizations, their annual 990 filings, and organizations that have closed. 
+This data has been released in formats that are not always easy to use - ASCII text files,
+json files, and XML queries. In order to make the data accessible to the research 
+community, [[Jesse Lecy and a team]](https://lecy.github.io/Open-Data-for-Nonprofit-Research/)
+have created scripts to download data from IRS websites, clean and process it, and export into familiar formats (CSV, Stata, SPSS, etc.)."
+ 
 
-Installation
+## Conclusion
 
-Provide code examples and explanations of how to get the project.
-
-API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-Tests
-
-Describe and show how to run the tests with code examples.
-
-Contributors
-
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
-License
-
-A short snippet describing the license (MIT, Apache, etc.)
-[Open Data for Nonprofit Research](https://github.com/lecy/Open-Data-for-Nonprofit-Research) 
+After running multiple subsets of the data through regression based, tree based, and ensemble
+methods, the best model accuracy 36% in predicting the correct  
