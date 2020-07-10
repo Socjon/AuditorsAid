@@ -1,3 +1,5 @@
+# Auditors Aid - Anomaly Detection in Not-for-Profit Data
+
 ## Synopsis
 Non-Profit organizations are required to self-identify their area of focus based on the type of work 
 the organization does. I created machine learning models to classify these subgroups based on their annual 990 
@@ -28,4 +30,18 @@ have created scripts to download data from IRS websites, clean and process it, a
 ## Conclusion
 
 After running multiple subsets of the data through regression based, tree based, and ensemble
-methods, the best model accuracy 36% in predicting the correct  
+methods, the best model accuracy 36% in predicting the correct non-profit subgroup.
+
+Compared to true random (4%), a predictive model yields promising results if this kind of analysis
+were to be incorporated into the auditing framework. 
+
+## Areas of Improvement
+Effort has been put in to combat a few fundamental issues with the dataset.
+
+There is a class imbalance problem, e.g. there are more non-profits active in the 
+in Education sector than active non-profits involved in the International, Foreign Affairs, and National Security
+sector by a factor of 8, etc, etc. Multiple subsets of the source data was used in analysis to counteract this along with
+different modeling techniques.
+
+Other areas that could be improved upon; improving the mapping of an older IRS non-profit
+classification system to their current standard, as well as incorporating more data into the model from other IRS sources.
