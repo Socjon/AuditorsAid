@@ -8,6 +8,8 @@ filings.
 The intent of the project was to identify inconsistencies within these subgroups.
 This in turn would give the IRS auditors specific organizations to investigate and reduce fraud.
 
+A [slide deck](https://github.com/Socjon/AuditorsAid/blob/master/Another%20tool%20for%20Auditors.pdf) is also available to peruse for highlights.
+
 ## Motivation
 
 In efforts to make the government more efficient and better equipping our civil employees
