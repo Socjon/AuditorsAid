@@ -3,8 +3,7 @@
 ## Synopsis
 Non-Profit organizations are required to self-identify their area of focus based on the type of work 
 the organization does. I created machine learning models to classify these subgroups based on their annual 990 
-filings. The intent of the project was to identify inconsistencies within these subgroups. Such as if a Non-Profit stated their aim was
-in support of Animal Welfare but was characteristically similar to a Medical Research group.
+filings. The intent of the project was to identify inconsistencies within these subgroups. Such as if a Non-Profit stated their aim was in support of Animal Welfare but was characteristically similar to a Medical Research group.
 
 Identifying these anomalies in turn would give the IRS auditors specific organizations to investigate. 
 If the the deviation is caused by human error, identification would only help keep the data pipeline clean. But also in hopes
