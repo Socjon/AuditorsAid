@@ -6,7 +6,7 @@ the organization does. I created machine learning models to classify these subgr
 filings. The intent of the project was to identify inconsistencies within these subgroups. Such as if a Non-Profit stated their aim was in support of Animal Welfare but was characteristically similar to a Medical Research group.
 
 Identifying these anomalies in turn would give the IRS auditors specific organizations to investigate. 
-If the the deviation is caused by human error, identification would only help keep the data pipeline clean. But also created in hopes
+If the deviation is caused by human error, identification would only help keep the data pipeline clean. But also created in hopes
 to catch specious filings to reduce fraud.
 
 A [slide deck](https://github.com/Socjon/AuditorsAid/blob/master/Another%20tool%20for%20Auditors.pdf) is also available 
